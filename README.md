@@ -1,0 +1,3 @@
+    Este algoritmo em Portugol conta quantos números primos existem em um intervalo definido pelo usuário. Após solicitar os limites do intervalo, o programa verifica cada número, identificando se é primo por meio de divisões até a raiz quadrada do número. Se um número não é divisível por nenhum valor nessa faixa, ele é considerado primo e um contador é incrementado. Ao final, o programa exibe o total de números primos encontrados, oferecendo uma forma simples e eficaz de explorar a natureza dos números primos dentro de um intervalo específico.
+
+[Mais informações nesse link:](https://brasilescola.uol.com.br/o-que-e/matematica/o-que-e-numero-primo.htm)

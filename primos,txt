@@ -1,0 +1,29 @@
+algoritmo "contar_primos"
+var
+    inicio, fim, contador, i, j: inteiro
+    primo: booleano
+inicio
+    escreva("Digite o início do intervalo: ")
+    leia(inicio)
+    escreva("Digite o fim do intervalo: ")
+    leia(fim)
+
+    contador := 0
+    para i de inicio até fim faça
+        primo := verdadeiro
+        se i < 2 então
+            primo := falso
+        senão
+            para j de 2 até raiz(i) faça
+                se i % j = 0 então
+                    primo := falso
+                fimse
+            fimpara
+        fimse
+        se primo então
+            contador := contador + 1
+        fimse
+    fimpara
+
+    escreva("Total de números primos: ", contador)
+fimalgoritmo
